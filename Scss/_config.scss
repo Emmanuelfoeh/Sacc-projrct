@@ -11,3 +11,21 @@ $secondary-color: #ff652f;
 img {
   max-width: 100%;
 }
+
+@mixin media_ms {
+  @media (min-width: 700px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media (min-width: 1020px) {
+    @content;
+  }
+}
+
+@mixin media-xl {
+  @media (min-width: 1060px) {
+    @content;
+  }
+}
