@@ -1,0 +1,80 @@
+.home {
+  height: 100%;
+}
+.main {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(
+      to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.3)
+    ),
+    url(/image/model-1.jpg) center top;
+  background-size: cover;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    &__h1 {
+      font-weight: 500;
+    }
+    &__body {
+      width: 80%;
+      text-align: center;
+      font-weight: 500;
+    }
+    &__name {
+      font-size: 3em;
+      font-weight: 700;
+    }
+    &__hr {
+      width: 100vw;
+      height: 2px;
+      border-bottom: 2px solid white;
+    }
+  }
+}
+.foeh {
+  color: $secondary-color;
+}
+.main__social {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  &-img {
+    width: 40%;
+    margin: 1rem;
+  }
+}
+.main__social a {
+  font-size: 0;
+  padding: 0%;
+  margin: 0%;
+  //   width: 100%;
+}
+.main__footer {
+  display: flex;
+  background-color: rgb(228, 222, 222);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-foot {
+  position: absolute;
+  bottom: 0;
+}
+.copy {
+  color: $secondary-color;
+  font-size: 1rem;
+  font-weight: 700;
+}
