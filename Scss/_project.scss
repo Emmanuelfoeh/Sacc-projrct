@@ -87,19 +87,6 @@ header {
   width: 100%;
 }
 
-@media (min-width: 800px) {
-  .down-project {
-    width: 80%;
-    display: grid;
-    margin: 0 auto;
-    column-gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
-
-    & .pro-work {
-      margin: 0;
-      width: 100%;
-    }
-  }
-}
+// @media (min-width: 800px) {
+  
+// }

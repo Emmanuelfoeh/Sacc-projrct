@@ -476,29 +476,6 @@ header {
   width: 100%;
 }
 
-@media (min-width: 800px) {
-  .down-project {
-    width: 80%;
-    display: -ms-grid;
-    display: grid;
-    margin: 0 auto;
-    -webkit-column-gap: 1rem;
-            column-gap: 1rem;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-  }
-  .down-project .pro-work {
-    margin: 0;
-    width: 100%;
-  }
-}
-
 .con {
   height: 100%;
 }
